@@ -7,11 +7,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Alex Soares <code>Teste de versionamento</code> essa porra funciona?.
+           <code>Teste de versionamento</code> isto funciona?.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.objective.com.br/"
           target="_blank"
           rel="noopener noreferrer"
         >
