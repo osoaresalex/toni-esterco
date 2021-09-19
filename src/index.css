@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    font-size: 16px;
+}
+
+#root {
+    display: flex;
+    flex: 1;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.color-red {
+    color: #D42026;
+}
+
+.background-red {
+    background-color: #D42026;
+}
+
+.color-black {
+    color: #4e4e4e;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fbe9e9;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background: #fbe9e9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D42026;
+}

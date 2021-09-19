@@ -1,0 +1,51 @@
+.details-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-height: 86vh;
+  overflow-y: auto;
+}
+
+.details-page__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+  grid-template-areas:
+  "image text text"
+  "image events events"
+  "image series series"
+  "image stories stories";
+}
+
+.details-page__mobile{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.image {
+  grid-area: image;
+}
+
+.text {
+  grid-area: text;
+}
+
+.events{
+  grid-area: events;
+}
+
+.series{
+  grid-area: series;
+}
+
+.stories{
+  grid-area: stories;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 1.5rem;
+}

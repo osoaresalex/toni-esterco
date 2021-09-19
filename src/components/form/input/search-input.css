@@ -1,0 +1,10 @@
+.search__input {
+    display: block;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    overflow: visible;
+}
+
+.search__input:focus {
+    outline: none;
+}
