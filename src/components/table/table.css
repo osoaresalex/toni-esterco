@@ -1,0 +1,31 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table tr {
+    display: table-row;
+    border-color: inherit;
+}
+
+.table th {
+    border-right: 10px solid #fff;
+}
+
+.table th:last-child {
+    border-right: none;
+}
+
+.table th {
+    text-align: left;
+    width: 25%;
+}
+
+.table td:last-child, th:last-child {
+    width: 50%;
+}
+
+.table tbody tr:hover {
+    cursor: pointer;
+    background-color: #fbe9e9;
+}
